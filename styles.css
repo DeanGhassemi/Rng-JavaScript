@@ -1,1 +1,26 @@
 /* Mobile First */
+
+html{
+    color-scheme: light dark;
+}
+@media only screen and (min-width: 300px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .title{
+        text-align: center;
+    }
+    body{
+        font-family: system-ui;
+        font-size: 1.125rem;
+        line-height: 1.5;
+    }
+    .description, .generated, .interact{
+        text-align: center;
+        display: grid;
+        width: 15em;
+        height: 7em;
+        margin: auto;
+    }
+}
